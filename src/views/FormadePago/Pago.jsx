@@ -24,7 +24,7 @@ export default function Pago() {
                         <p className="text-secondary">
                           <Link
                             to={"/Tarjets"}
-                            className="fas fa-plus-circle text-primary pe-1"
+                            className="fas fa-plus-circle text-success pe-1"
                           >
                             Agregar tarjeta
                           </Link>
@@ -89,7 +89,7 @@ export default function Pago() {
                 <div className="col-md-5 col-xl-4 offset-xl-1">
                   <div className="py-4 d-flex justify-content-end">
                     <h6>
-                      <Link to={"/"}>Cancelar y regresar a inicio</Link>
+                      <Link to={"/"} className="text-success">Cancelar y regresar a inicio</Link>
                     </h6>
                   </div>
                   <div className="rounded d-flex flex-column p-2">

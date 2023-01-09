@@ -3,8 +3,8 @@ import { homeMenu } from "../const/homemenu";
 import { homeMenuDos } from "../const/homeMenuDos";
 export default function header() {
   return (
-    <div>
-      <div className="d-flex  px-5 py-2">
+    <div className="container-fluid">
+      <div className="d-flex  px-4 py-2">
         <div className="d-flex ">
           <img src="src/assets/imagenes/logo.png" width="40px d-flex " />
           <h3>Ferreteria Miraflores</h3>
@@ -20,7 +20,7 @@ export default function header() {
             <Link to="/carrito" className="text-decoration-none">
               <button
                 type="button"
-                className="btn btn-outline-danger d-flex d-grid gap-2"
+                className="btn btn-warning d-flex d-grid gap-2"
               >
                 <i className="bi bi-basket2"></i>Cart
               </button>
@@ -29,8 +29,8 @@ export default function header() {
         </div>
       </div>
 
-      <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container-fluid d-flex px-4 ">
+      <nav className="navbar navbar-expand-lg bg-light ">
+        <div className="container-fluid d-flex">
           <button
             className="navbar-toggler"
             type="button"

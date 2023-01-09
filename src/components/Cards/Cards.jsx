@@ -6,13 +6,13 @@ export default function Card() {
       <div className="d-flex  px-4 py-5 row g-3 justify-content-evenly">
         {products.map((productItem, index) => (
           <div
-            className="card d-flex col-12 m-3 border-0"
+            className="card d-flex col-12 m-3 border-0 shadow-sm p-3 mb-5 bg-body-tertiary rounded"
             style={{ width: "18rem" }}
             key={index}
           >
             <img
               src="src/assets/imagenes/nivel-laser-bosch.webp"
-              className="card-img-top"
+              className="card-img-top object-fit-fill border rounded"
               width="150px"
               alt="..."
             />
@@ -35,12 +35,12 @@ export default function Card() {
             </div>
             <div className="card-buttons d-flex p-1 d-grid gap-3 ">
               <div>
-                <Link to={"/product"} className="btn btn-danger">
+                <Link to={"/product"} className="btn btn-warning">
                   Ver
                 </Link>
               </div>
               <div className="d-flex">
-                <button className="btn btn-outline-dark " type="button">
+                <button className="btn btn-outline-secondary" type="button">
                   {" "}
                   Añadir al carrito
                 </button>

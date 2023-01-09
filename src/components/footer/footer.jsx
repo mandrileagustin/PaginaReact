@@ -1,6 +1,6 @@
 export default function footer() {
   return (
-    <div className="bg-light ">
+    <div className="bg-light">
       <hr/>
       <div className="d-flex px-3 justify-content-space-evenly d-grid gap-3 ">
         <div className=" d-flex row p-3 justify-content-space-around">
@@ -36,22 +36,22 @@ export default function footer() {
                 <h5 className="text-light mb-3">Atencion al cliente</h5>
                 <ul className="list-unstyled text-muted">
                   <li>
-                    <a className="text-danger text-decoration-none" href="#">
+                    <a className="text-warning-emphasis text-decoration-none" href="#">
                       Envios
                     </a>
                   </li>
                   <li>
-                    <a className="text-danger text-decoration-none" href="#">
+                    <a className="text-warning-emphasis text-decoration-none" href="#">
                       Devoluciones
                     </a>
                   </li>
                   <li>
-                    <a className="text-danger text-decoration-none" href="#">
+                    <a className="text-warning-emphasis text-decoration-none" href="#">
                       Metodos de compra
                     </a>
                   </li>
                   <li>
-                    <a className="text-danger text-decoration-none" href="#">
+                    <a className="text-warning-emphasis text-decoration-none" href="#">
                       Ayuda
                     </a>
                   </li>
@@ -60,7 +60,7 @@ export default function footer() {
 
               <div className="col-lg-4 col-md-6">
                 <h5 className="text-light mb-3">Valora nuestra pagina</h5>
-                <p className="small text-muted">
+                <p className="small text-light">
                   Dejanos saber tu opinion sobre nuestra pagina, buscamos
                   mejorar tu experiencia.
                 </p>
@@ -74,7 +74,7 @@ export default function footer() {
                       aria-describedby="button-addon2"
                     />
                     <button
-                      className="btn btn-danger"
+                      className="btn btn-warning-emphasis"
                       id="button-addon2"
                       type="button"
                     >
@@ -88,7 +88,7 @@ export default function footer() {
                 <ul className="list-unstyled text-muted">
                   <li>
                     <a
-                      className="text-danger text-decoration-none"
+                      className="text-warning-emphasis text-decoration-none"
                       href="http://instagram.com"
                     >
                       Instagram
@@ -96,7 +96,7 @@ export default function footer() {
                   </li>
                   <li>
                     <a
-                      className="text-danger text-decoration-none"
+                      className="text-warning-emphasis text-decoration-none"
                       href="http://facebook.com"
                     ><i className="bi bi-facebook"></i>
                       acebook
@@ -104,7 +104,7 @@ export default function footer() {
                   </li>
                   <li>
                     <a
-                      className="text-danger text-decoration-none"
+                      className="text-warning-emphasis text-decoration-none"
                       href="http://linkedIn.com"
                     >
                       Linked
@@ -112,7 +112,7 @@ export default function footer() {
                   </li>
                   <li>
                     <a
-                      className="text-danger text-decoration-none"
+                      className="text-warning-emphasis text-decoration-none"
                       href="http://youtube.com"
                     ><i className="bi bi-youtube"></i>
                       Youtube

@@ -58,7 +58,7 @@ export default function login() {
                 <div>
                   <input
                     type="submit"
-                    className="btn btn-lg btn-primary"
+                    className="btn btn-lg btn-outline-success"
                     value="Register"
                   />
                 </div>
@@ -96,7 +96,7 @@ export default function login() {
                   />
                 </div>
                 <div>
-                  <input type="submit" className="btn btn-md" value="Sign In" />
+                  <input type="submit" className="btn btn-outline-success" value="Sign In" />
                 </div>
                 </div>
               </fieldset>

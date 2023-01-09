@@ -1,6 +1,6 @@
 export default function Tarjets() {
   return (
-    <div>
+    <div className="container-fluid py-3">
       <section>
         <div className="row d-flex justify-content-center">
           <div className="col-md-10 col-lg-8 col-xl-5">
@@ -31,7 +31,7 @@ export default function Tarjets() {
                         </label>
                       </div>
                     </div>
-                    <a href="#!">Remove card</a>
+                    <a href="#!" className="text-danger">Remove card</a>
                   </div>
 
                   <div className="d-flex flex-row align-items-center mb-4 pb-1">
@@ -52,7 +52,7 @@ export default function Tarjets() {
                         </label>
                       </div>
                     </div>
-                    <a href="#!">Remove card</a>
+                    <a href="#!" className="text-danger">Remove card</a>
                   </div>
 
                   <p className="fw-bold mb-4">Add new card:</p>
