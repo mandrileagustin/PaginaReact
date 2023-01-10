@@ -1,4 +1,32 @@
+import { useState } from "react";
+import {useNavigate} from "react-router-dom"
+
 export default function login() {
+
+  const [fullData, setFullData] = useState({
+    username:"",
+    password:""
+  });
+  console.log(fullData)
+// const navigate = useNavigate()
+
+  function handleData(event)  {
+    setFullData({
+      ...fullData,
+      [event.target.name]:event.target.value
+  })}
+  
+  
+  function handleSubmit(event, fullData) {
+    event.preventDefault();
+    if(fullData.username === "mandrileagustin@hotmail.com" && fullData.password === "1234"){
+      alert("Logeado")
+    }else{
+      alert("Error")
+    }
+  }
+
+  
   return (
     <div className="container-fluid">
       <div className="container">
@@ -72,7 +100,7 @@ export default function login() {
           </div>
 
           <div className="col-md-5">
-            <form role="form">
+            <form role="form" onSubmit={(event) => handleSubmit(event, fullData)}>
               <fieldset>
               <div className="d-grid gap-3">
                 <p className="text-uppercase"> INICIAR SESIÓN CON MIS DATOS: </p>
@@ -82,6 +110,8 @@ export default function login() {
                     type="email"
                     name="username"
                     id="username1"
+                    value={fullData.username}
+                    onChange={handleData}
                     className="form-control input-lg"
                     placeholder="username"
                   />
@@ -91,6 +121,8 @@ export default function login() {
                     type="password"
                     name="password"
                     id="password3"
+                    value={fullData.password}
+                    onChange={handleData}
                     className="form-control input-lg"
                     placeholder="Password"
                   />
