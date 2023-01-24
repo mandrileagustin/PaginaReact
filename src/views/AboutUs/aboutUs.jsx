@@ -1,5 +1,9 @@
-export default function aboutUs() {
+
+export default function Lista() {
+ 
   return (
-    <></>
+    <div>
+      
+    </div>
   );
 }

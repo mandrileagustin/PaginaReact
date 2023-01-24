@@ -26,7 +26,7 @@ export default function Card() {
                 <i className="bi bi-star"></i>
               </div>
               <div>
-                <i class="bi bi-currency-euro"></i>
+                <i className="bi bi-currency-euro"></i>
                 {productItem.precio}
               </div>
               <div>
